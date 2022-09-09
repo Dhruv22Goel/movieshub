@@ -43,7 +43,7 @@ export default function Credits() {
                     <Link to="/discover" className="link link3">Discover</Link>
                 </Alpha>
             </Redirects>
-            <Text>© 2022</Text>
+            <Text>© Dhruv Goel 2022</Text>
         </CreditsDiv>
     )
 }

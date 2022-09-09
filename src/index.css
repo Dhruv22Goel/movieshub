@@ -1,0 +1,66 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+body{
+    margin:0px;
+    color:white;
+    font-family: sans-serif;
+    background-color: black;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    height:5px;
+    
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #111111 ;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1f1f1f; 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-corner{
+    background-color: black;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4f4f4f; 
+  }
+.recommendations{
+  background-color:black;
+  padding:50px 0px;
+  padding-right: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-self: center;
+}
+.recommendations2{
+  background-color:black;
+  padding:50px 0px;
+  padding-right: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-self: center;
+  overflow-y:hidden;
+}
+.link{
+  text-decoration: none;
+  color:white;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+.link2{
+  text-decoration: none;
+  margin:15px 50px 20px 50px;
+  color:white;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.link3{
+  padding:0px 20px;
+}
+.carousel .control-dots .dot{
+  width: 8px!important;
+}
